@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -445px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.btn-predict {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-predict:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+
+}
+
+img {
+    float: left;
+    margin-left: 700px;
+    margin-top: -300px;
+    height: 400px;
+    width: 600px;
+}
+
+
+
+.col-lg-12{
+    padding-top: 110px;
+    margin-left: -80px;
+}
+.page-title{
+    color: #7d2ae8;
+}
+.brain_img{
+    position: fixed;
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.accordion{
+    width: 750px;
+}
+.accordion .card {
+	background: none;
+	border: none;
+}
+.accordion .card .card-header {
+	background: none;
+	border: none;
+	padding: .4rem 1rem;
+	font-family: "Roboto", sans-serif;
+}
+.accordion .card-header h2 span {
+	float: left;
+	margin-top: 10px;
+}
+.accordion .card-header .btn {
+	color: #2f2f31;
+	font-size: 1.04rem;
+	text-align: left;
+	position: relative;
+	font-weight: 500;
+	padding-left: 2rem;
+}
+.accordion .card-header i {
+	font-size: 1.2rem;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	top: 9px;
+}
+.accordion .card-header .btn:hover {
+	color: #7d2ae8;
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+.accordion .card-body {
+	color: #324353;
+	padding: 0.5rem 3rem;
+}
+.page-title {
+	margin: 3rem 0 3rem 1rem;
+	font-family: "Roboto", sans-serif;
+	position: relative;
+}
+.page-title::after {
+	content: "";
+	width: 80px;
+	position: absolute;
+	height: 3px;
+	border-radius: 1px;
+	background: black;
+	left: 0;
+	bottom: -15px;
+}
+.accordion .highlight .btn {
+	color: #74bd30;
+}
+.accordion .highlight i {
+	transform: rotate(180deg);
+}
